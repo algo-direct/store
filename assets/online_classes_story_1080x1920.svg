@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Online Tuition & Spoken English — Story</title>
+  <desc id="desc">Mobile-friendly vertical ad for online tuition and spoken English classes. Contact 6280345896 and meenushardhawa1@gmail.com. Price ₹1000/month.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0FAFF"/>
+      <stop offset="1" stop-color="#E9F7FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- Top rounded card -->
+  <g transform="translate(40,80)">
+    <rect width="1000" height="480" rx="28" fill="#2D9CDB" />
+    <text x="60" y="140" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="56" font-weight="700">Online Tuition</text>
+    <text x="60" y="210" fill="#E6F7FF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="28">Tuition for Grades 1–12 • All Boards</text>
+    <text x="60" y="260" fill="#E6F7FF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="28">Spoken English • All age groups</text>
+    <!-- small icons -->
+    <g transform="translate(800,60)">
+      <circle cx="0" cy="0" r="36" fill="#fff" opacity="0.12"/>
+      <text x="-8" y="12" font-size="38" fill="#fff" font-family="system-ui" font-weight="700">EN</text>
+    </g>
+  </g>
+
+  <!-- Feature card -->
+  <g transform="translate(60,600)">
+    <rect width="960" height="420" rx="20" fill="#ffffff" filter="url(#shadow)"/>
+    <text x="60" y="80" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="40" font-weight="700">What you get</text>
+
+    <!-- feature rows -->
+    <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="28" fill="#152033">
+      <g transform="translate(60,140)">
+        <circle cx="0" cy="-6" r="14" fill="#2D9CDB"/>
+        <text x="36" y="0">Grammar</text>
+      </g>
+      <g transform="translate(60,200)">
+        <circle cx="0" cy="-6" r="14" fill="#2D9CDB"/>
+        <text x="36" y="0">Vocabulary</text>
+      </g>
+      <g transform="translate(60,260)">
+        <circle cx="0" cy="-6" r="14" fill="#2D9CDB"/>
+        <text x="36" y="0">Fluency</text>
+      </g>
+      <g transform="translate(60,320)">
+        <circle cx="0" cy="-6" r="14" fill="#2D9CDB"/>
+        <text x="36" y="0">Personality Development</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Price & CTA area -->
+  <g transform="translate(60,1080)">
+    <rect x="0" y="0" width="960" height="640" rx="20" fill="#FFF8F0" />
+    <text x="60" y="100" fill="#152033" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="36" font-weight="700">Enroll now — only</text>
+    <text x="60" y="160" fill="#F2994A" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="62" font-weight="800">₹1000 / month</text>
+
+    <!-- contact box -->
+    <g transform="translate(60,220)">
+      <rect x="0" y="0" width="840" height="220" rx="14" fill="#ffffff" stroke="#E6EEF7" />
+      <text x="36" y="70" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="28">Call / WhatsApp: <tspan font-weight="700">6280345896</tspan></text>
+      <text x="36" y="120" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="24">Email: <tspan font-weight="700">meenushardhawa1@gmail.com</tspan></text>
+    </g>
+
+    <!-- CTA button -->
+    <a href="tel:6280345896" target="_blank">
+      <rect x="60" y="460" width="420" height="100" rx="18" fill="#2D9CDB"/>
+      <text x="270" y="525" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" text-anchor="middle" font-size="36" font-weight="700">ENROLL NOW</text>
+    </a>
+
+    <!-- small note -->
+    <text x="60" y="590" fill="#6B7280" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="18">Tuition for all subjects (Grade 1 to Grade 12) • All Boards</text>
+  </g>
+
+  <!-- footer -->
+  <text x="60" y="1840" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="16">Grammar • Vocabulary • Fluency • Personality Development</text>
+</svg>
